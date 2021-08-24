@@ -95,3 +95,16 @@ print(persona.values())
 persona.clear()
 print(persona)
 
+#CONJUNTOS
+#COLECCION DE DATOS desordenada, QUE UNA VEZ QUE LA CREAMOS NO PODREMOS ACCEDER A SUS POSICIONES YA QUE ESTARA ORDENADA ALEATORIAMENTE
+#se puede editar mas no se puede ingresar a sus elementos por posiciones
+alumnos = {'Kevin', 'Katherine', 'Ricardo', 'Aylin', 'Carlos', 'Eduardo'}
+print(alumnos)
+alumnos.add('Diego')
+print(alumnos)
+alumnos.remove('Eduardo')
+print(alumnos)
+
+#generalemnte se usa para guardar valores sin la necesidad de llaves
+cursos = {'matematicas', 'cta', 'biologia', 'comunicacion'}
+print('matematicas' in cursos)
